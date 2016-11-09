@@ -139,7 +139,7 @@ double calcDistance(struct node *node1,struct node *node2)
 // sets the cetroid for that set
 void setCenteroid(struct node *node)
 {
-	//printf("setCenteroid runs with node->x==%lf\n",node->x);
+	
 	struct node *temp=node;
 	double centx=0,centy=0;
 	int n=countSet(node);
